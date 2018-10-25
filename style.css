@@ -1,0 +1,65 @@
+body {
+    background-color: darkred;
+    height: 100vh;
+}
+
+#startBtn{
+    height: 100px;
+    width: 200px;
+    font-size: 3rem;
+    background-color: black;
+    color: darkred;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-top: 50vh;
+
+    margin-left: 50vw;
+    transform: translate(-50%, -50%);
+}
+#startBtn:hover {
+    background-color: darkred;
+    color: #000;
+}
+
+.divLettre {
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    height: 20%;
+    margin: auto;
+    margin-top: 25vh;
+    transform: translateY(-50%);
+    align-items: center;
+}
+
+.lettre {
+    height: 10rem;
+    width: 10rem;
+    background-color: black;
+    color: darkred;
+    font-size: 5rem;
+    text-align: center;
+    line-height: 10rem;
+}
+
+.sel {
+    background-color: #3a0011;
+}
+
+#randomBtn {
+    width: 300px;
+    height: 100px;
+    display: block;
+    margin: auto;
+    margin-top: 15vh;
+    font-size: 3rem;
+    background-color: black;
+    color: darkred;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+#randomBtn:hover {
+    background-color: darkred;
+    color: #000;
+}
